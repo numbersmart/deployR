@@ -1,0 +1,11 @@
+Package: deployR
+Type: Package
+Title: Deploy an NM environment
+Version: 0.1
+Date: 2016-03-23
+Author: numbersmart
+Maintainer: numbersmart <datos@numbersmart.mx>
+Description: Deploy an NM environment for data minning
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1
