@@ -28,7 +28,7 @@ SetupDespliegue <- function(folder_datos, folder_scripts, mailpassword) {
   # ++++++++++++++++++++++++++++++++++++++++++++++++++++++
   # List of packages for session
   .packages = c("ggplot2", "dplyr", "magrittr", "rvest", "stringi", "stringr",
-                "inegiR", "devtools")
+                "inegiR", "devtools", "lubridate", "mailR")
 
   # Install CRAN packages (if not already installed)
   .inst <- .packages %in% installed.packages()
